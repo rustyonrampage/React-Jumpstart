@@ -2,23 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Cafe from './components/cafe'
+
+
+
+
 function App() {
+  let hours = new Date().getHours()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {hours < 12 && <h3>Sorry, we are closed</h3>}
+      {/* shorthand syntax for using components */}
+      <Cafe />
     </div>
   );
 }
