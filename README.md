@@ -3,7 +3,7 @@
 This is step by step guide to get started with React. All of the fundamental operations required in a typical React app are covered here.
 
 Following is the demo we will build.
-![Image of Yaktocat]("./react jumpstart.gif")
+[Image of Yaktocat](https://raw.githubusercontent.com/rustyonrampage/React-Jumpstart/master/react%20jumpstart.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
